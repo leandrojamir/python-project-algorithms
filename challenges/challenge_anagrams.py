@@ -7,10 +7,7 @@ def is_anagram(first_string, second_string):
     # durante a comparação das entradas, ou seja, ser case insensitive.
     first_sort = my_sort(list(first_string.lower()))
     second_sort = my_sort(list(second_string.lower()))
-    # print(f"\nvvv\nprimeira string: {first_sort}")
-    # primeira string: ['a', 'd', 'e', 'p', 'r']
     first = "".join(first_sort)
-    print(f"\nvvv\nprimeira string: {first}")
     second = "".join(second_sort)
 
     #  Faça um algoritmo que consiga comparar duas strings, ordená-las e
